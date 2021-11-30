@@ -1,0 +1,14 @@
+{
+    "language": "go",
+    "app": "go run main.go",
+    "codeMakerOutput": "generated",
+    "projectId": "8236bf95-e034-4c8b-bf62-5039ce21742c",
+    "terraformProviders": [
+        "kubernetes@~> 2.6.1"
+    ],
+    "terraformModules": [],
+    "context": {
+        "excludeStackIdFromLogicalIds": "true",
+"allowSepCharsInLogicalIds": "true"
+    }
+}

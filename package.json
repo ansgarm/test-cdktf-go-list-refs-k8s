@@ -1,0 +1,12 @@
+{
+  "name": "test-cdktf-go-list-refs-k8s",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "fail": "yarn && yarn cdktf get && go mod tidy && yarn cdktf synth"
+  },
+  "dependencies": {
+    "cdktf-cli": "^0.7.0"
+  }
+}
